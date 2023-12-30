@@ -33,7 +33,7 @@ try:
                    'from sys.sql_modules m '
                    'join sys.objects o on m.object_id = o.object_id '
                    'join sys.schemas s on s.schema_id = o.schema_id '
-                   'left join ObjectCateguries c on o.object_id = c.object_id '
+                   'left join ObjectCateguries c on o.name = c.name '
                    'where o.name in (select ObjectName from AUDIT_TABLE where cast(Createdate as date) >= cast(dateadd(day, -1, getdate()) as date))')
     for i in cursor:
         profilerDirectory = "'"+i[0]+"'"
