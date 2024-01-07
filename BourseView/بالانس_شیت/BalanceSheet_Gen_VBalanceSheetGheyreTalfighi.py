@@ -38,9 +38,13 @@ try:
     # cursor.execute('	truncate table PreBalanceSheetTalfighi	insert into PreBalanceSheetTalfighi	select *	from VPreBalanceSheetTalfighi')
     # # cursor.execute('	truncate table [VBalanceSheetGheyreTalfighi]	insert into [VBalanceSheetGheyreTalfighi]	select *	from [VBalanceSheet_GheyreTalfighi_Talfighi_new]')
     # cursor.commit()
-    cursor.execute('exec Clean_HistoricalData insert into PreProcessBalanceSheet select getdate()')
-    cursor.commit()
 
+
+    cursor.execute('exec Clean_HistoricalData ')
+
+    cursor.commit()
+    cursor.execute('insert into PreProcessBalanceSheet select getdate()')
+    cursor.commit()
     conn.close()
     conn = pyodbc.connect('Driver={SQL Server Native Client 11.0};'
                           'Server=LOCALHOST;'

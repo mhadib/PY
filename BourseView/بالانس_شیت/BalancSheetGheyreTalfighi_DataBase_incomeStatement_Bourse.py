@@ -83,39 +83,6 @@ try:
                 print(e)
     newStock = newStock.rename(columns={'symbol': 'companyID'})
 
-    t = pandas.DataFrame.from_dict(pandas.DataFrame.from_dict(stockDataFrame['tickers'][0])['company'], orient="columns")
-    companyURLs1 = ""
-    companyURLs2 = ""
-    companyURLs3 = ""
-    companyURLs4 = ""
-    companyURLs5 = ""
-    companyURLs6 = ""
-    companyURLs7 = ""
-    companyCounter = 0
-    for key10, item10 in t.iterrows():
-        try:
-            #if pandas.DataFrame.from_dict(stockDataFrame['tickers'][0])['symbolFA'][key10] in test2df.query('type == 2')['signal'].values: # test2df['signal'].values: #
-                if companyCounter <= 200:
-                    # print(pandas.DataFrame.from_dict(stockDataFrame['tickers'][0])['symbolFA'][key10]+","+str(dict(item10['company'])['key']))
-                    companyURLs1 = companyURLs1 + str(dict(item10['company'])['key'])+","
-                if (companyCounter > 200 and companyCounter <= 400):
-                    # print(pandas.DataFrame.from_dict(stockDataFrame['tickers'][0])['symbolFA'][key10] + "," + str(                        dict(item10['company'])['key']))
-                    companyURLs2 = companyURLs2 + str(dict(item10['company'])['key'])+","
-                if (companyCounter > 400 and companyCounter <= 600):
-                    # print(pandas.DataFrame.from_dict(stockDataFrame['tickers'][0])['symbolFA'][key10] + "," + str(                        dict(item10['company'])['key']))
-                    companyURLs3 = companyURLs3 + str(dict(item10['company'])['key']) + ","
-                if (companyCounter > 600 and companyCounter <= 800):
-                    companyURLs4 = companyURLs4 + str(dict(item10['company'])['key'])+","
-                if (companyCounter > 800 and companyCounter <= 1000):
-                    companyURLs5 = companyURLs5 + str(dict(item10['company'])['key'])+","
-                if (companyCounter > 1000 and companyCounter <= 1200):
-                    companyURLs6 = companyURLs6 + str(dict(item10['company'])['key'])+","
-                if companyCounter > 1200 :
-                    companyURLs7 = companyURLs7 + str(dict(item10['company'])['key'])+","
-                companyCounter = companyCounter + 1
-        except:
-            print('unsupport type')
-
     test2df = pandas.read_excel(r'E:\PY\BourseView\چند روز قبل را برای بالانس شیت ها از بورس ویو بگیر؟.xlsx', sheet_name='Sheet1')
     BeforeDayCount = test2df['Value'][0]
     dateToGetDate = datetime.today() - timedelta(days=np.float64(BeforeDayCount))
@@ -135,7 +102,7 @@ try:
             'statementTypes': 'incomeStatement',
             'date': '['+dateToGetDate.strftime("%Y%m%d")+',null]',
 
-            'tickers':  tickersStringIds
+            'tickers': tickersStringIds
         }
         headers = {
             'Cookie': 'Authorization=' + authToken
@@ -154,6 +121,7 @@ try:
 
 
     finalResult = pandas.DataFrame(columns=["instrumentId","symbolFA","day","سال مالی","ماه مالی","روز آخر دوره","روز آخر سال مالی","تاریخ انتشار","'فروش'","'بهای تمام شده کالای فروش رفته'","'سود (زیان) خالص عملیات در حال تداوم قبل از مالیات'","'موجودی نقد'","'سرمایه گذاری کوتاه مدت'","'سایر حسابها و اسناد دریافتنی'","'موجودی مواد و کالا'","'پیش پرداخت ها'","'دارایی های نگهداری شده برای فروش'","'جمع داراییهای جاری'","'سرمایه گذاریهای بلند مدت'","'داراییهای ثابت مشهود'","'حسابها و اسناد دریافتنی تجاری بلند مدت'","'سایر دارایی ها'","'جمع داراییهای غیرجاری'","'جمع داراییها'","'پیش دریافتها'","'ذخیره مالیات بر درامد'","'سود سهام پیشنهادی و پرداختنی'","'حصه جاری تسهیلات مالی دریافتی'","'جمع بدهیهای جاری'","'حسابها و اسناد پرداختنی بلند مدت'","'تسهیلات مالی دریافتی بلند مدت'","'سود (زیان) انباشته'","'دریافتنی‌های تجاری و سایر دریافتنی‌ها'","'پرداختنی‌های تجاری و سایر پرداختنی‌ها'","'سرمایه گذاری در املاک'","'ذخایر'","'مطالبات از سایر بانکها و موسسات اعتباری'","'مطالبات از بانک مرکزی'","'سپرده های دیداری'","'سپرده های قرض الحسنه و پس اندار و مشابه'","'بدهی به بانک مرکزی'","'سایر سپرده ها'","'بدهی به بانکها و موسسات اعتباری'","'مطالبات از دولت'","'تسهیلات اعطایی و مطالبات از اشخاص دولتی'","'سپرده های سرمایه گذاری مدت دار'","'تسهیلات اعطایی به سایر اشخاص'","'حسابها و اسناد دریافتنی تجاری'","'حسابها و اسناد پرداختنی تجاری'","'سایر حسابها و اسناد پرداختنی'","'سرمایه گذاری در اوراق بهادار'"])
+    finerResultHelper = finalResult
     try:
         for key, item in pandas.DataFrame.from_dict(df['tickers'], orient="columns").iterrows():
             dataframe8 = pandas.DataFrame.from_dict(item[0], orient="columns")
@@ -164,6 +132,7 @@ try:
                 try:
                     #add symboleFa and InstrumentId
                     try:
+
                         result = pandas.DataFrame({'instrumentId': [newStock.loc[newStock['ticker'] == str(row7['ticker'])]['ticker'].values[0]],'symbolFA':[newStock.loc[newStock['ticker'] == str(row7['ticker'])]['symbolFA'].values[0]]})
                     except:
                         continue
@@ -234,8 +203,13 @@ try:
                         except:
                             print(2)
                     try:
-                        finalResult = pandas.concat([finalResult, result])
+
+                        finerResultHelper = pandas.concat([finerResultHelper, result], verify_integrity=True, ignore_index=True)
+                        finerResultHelper['instrumentday'] = finerResultHelper['instrumentId']+str(finerResultHelper['day'])
+                        if(finerResultHelper.duplicated('instrumentday').any() == False):
+                            finalResult = pandas.concat([finalResult, result], verify_integrity=True, ignore_index = True)
                         result = pandas.DataFrame()
+                        finerResultHelper = finalResult
                     except:
                         print(5)
                         result = pandas.DataFrame()

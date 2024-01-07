@@ -154,6 +154,7 @@ try:
 
 
     finalResult = pandas.DataFrame(columns=["instrumentId","symbolFA","day","سال مالی","ماه مالی","روز آخر دوره","روز آخر سال مالی","تاریخ انتشار","'فروش'","'بهای تمام شده کالای فروش رفته'","'سود (زیان) خالص عملیات در حال تداوم قبل از مالیات'","'موجودی نقد'","'سرمایه گذاری کوتاه مدت'","'سایر حسابها و اسناد دریافتنی'","'موجودی مواد و کالا'","'پیش پرداخت ها'","'دارایی های نگهداری شده برای فروش'","'جمع داراییهای جاری'","'سرمایه گذاریهای بلند مدت'","'داراییهای ثابت مشهود'","'حسابها و اسناد دریافتنی تجاری بلند مدت'","'سایر دارایی ها'","'جمع داراییهای غیرجاری'","'جمع داراییها'","'پیش دریافتها'","'ذخیره مالیات بر درامد'","'سود سهام پیشنهادی و پرداختنی'","'حصه جاری تسهیلات مالی دریافتی'","'جمع بدهیهای جاری'","'حسابها و اسناد پرداختنی بلند مدت'","'تسهیلات مالی دریافتی بلند مدت'","'سود (زیان) انباشته'","'دریافتنی‌های تجاری و سایر دریافتنی‌ها'","'پرداختنی‌های تجاری و سایر پرداختنی‌ها'","'سرمایه گذاری در املاک'","'ذخایر'","'مطالبات از سایر بانکها و موسسات اعتباری'","'مطالبات از بانک مرکزی'","'سپرده های دیداری'","'سپرده های قرض الحسنه و پس اندار و مشابه'","'بدهی به بانک مرکزی'","'سایر سپرده ها'","'بدهی به بانکها و موسسات اعتباری'","'مطالبات از دولت'","'تسهیلات اعطایی و مطالبات از اشخاص دولتی'","'سپرده های سرمایه گذاری مدت دار'","'تسهیلات اعطایی به سایر اشخاص'","'حسابها و اسناد دریافتنی تجاری'","'حسابها و اسناد پرداختنی تجاری'","'سایر حسابها و اسناد پرداختنی'","'سرمایه گذاری در اوراق بهادار'"])
+    finerResultHelper = finalResult
     try:
         for key, item in pandas.DataFrame.from_dict(df['tickers'], orient="columns").iterrows():
             dataframe8 = pandas.DataFrame.from_dict(item[0], orient="columns")
@@ -234,8 +235,14 @@ try:
                         except:
                             print(2)
                     try:
-                        finalResult = pandas.concat([finalResult, result])
+                        finerResultHelper = pandas.concat([finerResultHelper, result], verify_integrity=True,
+                                                          ignore_index=True)
+                        finerResultHelper['instrumentday'] = finerResultHelper['instrumentId'] + str(
+                            finerResultHelper['day'])
+                        if (finerResultHelper.duplicated('instrumentday').any() == False):
+                            finalResult = pandas.concat([finalResult, result], verify_integrity=True, ignore_index=True)
                         result = pandas.DataFrame()
+                        finerResultHelper = finalResult
                     except:
                         print(5)
                         result = pandas.DataFrame()

@@ -116,4 +116,4 @@ def main():
     sqlHistory = pandas.read_sql_query('''select * from [dbo].[VTavarrom] order by ['2005'] desc ''', conn)
     sqlHistory.to_excel('E:\\گزارشات اکسل\\Economist\\VTavarrom.xlsx', index=False)
     print("main done")
-main()
+# main()
