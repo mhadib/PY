@@ -1,8 +1,8 @@
 ﻿,0
 0,"<form method=""post"" action=""/malaysia/stock-market"" id=""aspnetForm"">
-<input type=""hidden"" name=""__VIEWSTATE"" id=""__VIEWSTATE"" value=""VPfISsYjiKSm6+aRWflqtHiCM2niHHCxjZU8W1nPkbJyvZum3TX36hAR2fsnqRWszcNANJTq4vQilmqqhqYXsrWkMdA="">
+<input type=""hidden"" name=""__VIEWSTATE"" id=""__VIEWSTATE"" value=""D4uOtb6tkh6SS84SjTzMTzWpRDq2wWnsIE/RjnEiEdy3VQiTgpA03rOQCEOMzjehYZ/9JZOVCxyUu1BYfdZu6D3VW48="">
 
-<script type=""text/javascript"" language=""Javascript"">var TESymbol = 'FBMKLCI'; console.log('TESymbol:', TESymbol);var TELanguage = 'fa'; console.log('TELanguage:', TELanguage);TELastUpdate = '202312202315'; console.log('TELastUpdate:', TELastUpdate);TEChart = 'MK'; console.log('TEChart:', TEChart);var TEAlertsName= 'Malaysia Stock Market (FBM KLCI)'; console.log('TEAlertsName:', TEAlertsName);</script><script type=""text/javascript"" language=""Javascript"">TEChartUrl = 'https://d3fy651gv2fhd3.cloudfront.net/charts/malaysia-stock-market.png?s=fbmklci&v=202312202315V20230410&lang=all';TECountry = 'Malaysia';TECategory = 'Stock Market';TEType = 'te';TEFrequency = 'Daily';TEForecast =   [1459.67,1456.89,1454.11,1451.34];</script><script type=""text/javascript"" language=""Javascript"">symbol = 'fbmklci:ind'; console.log('symbol:', symbol);symbolType = 'ind'; console.log('symbolType:', symbolType);</script><script type=""text/javascript"" language=""Javascript"">TEChartsMeta = [{""value"":1464.560000000000,""converted_value"":1464.560000000000,""symbol"":""FBMKLCI:IND"",""first_date"":""\/Date(378950400000)\/"",""last"":1464.560000000000,""type"":""Index"",""name"":""FKLCI"",""full_name"":""FTSE Bursa Malaysia KLCI Index"",""ticker"":""FBMKLCI:IND"",""description"":""FKLCI"",""timezone"":""UTC"",""supported_resolutions"":[""1"",""5"",""15"",""30"",""60"",""120"",""180"",""240"",""D"",""W"",""M""],""has_daily"":true,""has_weekly_and_monthly"":true,""has_no_volume"":true,""minmov"":0.1,""minmov2"":1,""pricescale"":100,""ieconomics_url"":null,""allowed_interval"":""1m"",""default_interval"":null,""has_intraday"":true,""industry"":null,""sector"":null,""chart_type"":null}]; console.log('TEChartsMeta:', TEChartsMeta);</script>
+<script type=""text/javascript"" language=""Javascript"">var TESymbol = 'FBMKLCI'; console.log('TESymbol:', TESymbol);var TELanguage = 'fa'; console.log('TELanguage:', TELanguage);TELastUpdate = '202401052315'; console.log('TELastUpdate:', TELastUpdate);TEChart = 'MK'; console.log('TEChart:', TEChart);var TEAlertsName= 'Malaysia Stock Market (FBM KLCI)'; console.log('TEAlertsName:', TEAlertsName);</script><script type=""text/javascript"" language=""Javascript"">TEChartUrl = 'https://d3fy651gv2fhd3.cloudfront.net/charts/malaysia-stock-market.png?s=fbmklci&v=202401052315V20230410&lang=all';TECountry = 'Malaysia';TECategory = 'Stock Market';TEType = 'te';TEFrequency = 'Daily';TEForecast =   [1435.66,1418.37,1401.37,1384.66];</script><script type=""text/javascript"" language=""Javascript"">symbol = 'fbmklci:ind'; console.log('symbol:', symbol);symbolType = 'ind'; console.log('symbolType:', symbolType);</script><script type=""text/javascript"" language=""Javascript"">TEChartsMeta = [{""value"":1487.610000000000,""converted_value"":1487.610000000000,""symbol"":""FBMKLCI:IND"",""first_date"":""\/Date(378950400000)\/"",""last"":1487.610000000000,""type"":""Index"",""name"":""FKLCI"",""full_name"":""FTSE Bursa Malaysia KLCI Index"",""ticker"":""FBMKLCI:IND"",""description"":""FKLCI"",""timezone"":""UTC"",""supported_resolutions"":[""1"",""5"",""15"",""30"",""60"",""120"",""180"",""240"",""D"",""W"",""M""],""has_daily"":true,""has_weekly_and_monthly"":true,""has_no_volume"":true,""minmov"":0.1,""minmov2"":1,""pricescale"":100,""ieconomics_url"":null,""allowed_interval"":""1m"",""default_interval"":null,""has_intraday"":true,""industry"":null,""sector"":null,""chart_type"":null}]; console.log('TEChartsMeta:', TEChartsMeta);</script>
 <script type=""text/javascript"">
 //<![CDATA[
 var isPostBack = false;//]]>
@@ -333,7 +333,7 @@ var isPostBack = false;//]]>
         <div class=""container"">
             <div class=""row"">
                 <div class=""col-xl-12"" style=""display: flex; flex-direction: row"">
-                    <h1 style=""width: 100%""><span class=""title-indicator"">مالزی - بازار سهام</span><span class=""title-notes hidden-sm hidden-md hidden-xs"">1982-2023 اطلاعات | 2024-2025 پیش بینی</span></h1>
+                    <h1 style=""width: 100%""><span class=""title-indicator"">مالزی - بازار سهام</span><span class=""title-notes hidden-sm hidden-md hidden-xs"">1982-2024 اطلاعات | 2025-2026 پیش بینی</span></h1>
                 </div>
             </div>
         </div>
@@ -445,10 +445,10 @@ var isPostBack = false;//]]>
         <div id=""datesDiv"" class=""collapse"" style=""padding-top: 5px;"">
             <div class=""input-group"">
                 <div class=""form-group"">
-                    <input name=""ctl00$ContentPlaceHolder1$ctl00$ChartUC$startDate"" type=""text"" value=""2020-12-20"" id=""startDate"" class=""form-control"" style=""max-width: 110px;"">
+                    <input name=""ctl00$ContentPlaceHolder1$ctl00$ChartUC$startDate"" type=""text"" value=""2021-01-07"" id=""startDate"" class=""form-control"" style=""max-width: 110px;"">
                 </div>
                 <div class=""form-group"">
-                    <input name=""ctl00$ContentPlaceHolder1$ctl00$ChartUC$endDate"" type=""text"" value=""2023-12-20"" id=""endDate"" class=""form-control"" style=""max-width: 110px;"">
+                    <input name=""ctl00$ContentPlaceHolder1$ctl00$ChartUC$endDate"" type=""text"" value=""2024-01-07"" id=""endDate"" class=""form-control"" style=""max-width: 110px;"">
                 </div>
                 <div id=""chart-custom-dates"" class=""btn btn-outline-secondary btn-sm"" data-bs-toggle=""collapse"" data-bs-target=""#datesDiv"">Ok</div>
             </div>
@@ -562,15 +562,15 @@ var isPostBack = false;//]]>
                         Malayan Banking BHD                                                                                  
                     </a>
                 </td>
-                <td id=""p"">8.97 </td>
+                <td id=""p"">9.06 </td>
                 <td id=""triangle"">
-                    <span class=""market-negative-image""></span>
+                    <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.01 </td>
-                <td id=""pch"" style=""text-align: center;"">-0.11%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">2.16%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""23120393723"">23.12B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.03 </td>
+                <td id=""pch"" style=""text-align: center;"">0.33%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">3.31%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""23558200120"">23.56B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""PBK:MK"">
@@ -584,15 +584,15 @@ var isPostBack = false;//]]>
                         Public Bank BHD                                                                                      
                     </a>
                 </td>
-                <td id=""p"">4.32 </td>
+                <td id=""p"">4.33 </td>
                 <td id=""triangle"">
-                    <span class=""market-negative-image""></span>
+                    <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.02 </td>
-                <td id=""pch"" style=""text-align: center;"">-0.46%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-2.04%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""17921390959"">17.92B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.04 </td>
+                <td id=""pch"" style=""text-align: center;"">0.93%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">0.70%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""18099328361"">18.1B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""CIMB:MK"">
@@ -606,15 +606,15 @@ var isPostBack = false;//]]>
                         Cimb Holdin                                                                                          
                     </a>
                 </td>
-                <td id=""p"">5.90 </td>
+                <td id=""p"">6.00 </td>
                 <td id=""triangle"">
-                    <span class=""market-negative-image""></span>
+                    <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.06 </td>
-                <td id=""pch"" style=""text-align: center;"">-1.01%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">1.90%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""13448194065"">13.45B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.05 </td>
+                <td id=""pch"" style=""text-align: center;"">0.84%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">5.82%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""13811916728"">13.81B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""TNB:MK"">
@@ -628,15 +628,15 @@ var isPostBack = false;//]]>
                         Tenaga Nasional BHD                                                                                  
                     </a>
                 </td>
-                <td id=""p"">10.00 </td>
+                <td id=""p"">10.48 </td>
                 <td id=""triangle"">
                     <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0 </td>
-                <td id=""pch"" style=""text-align: center;"">0%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">9.05%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""12368736634"">12.37B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.06 </td>
+                <td id=""pch"" style=""text-align: center;"">0.58%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">11.02%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""13091137062"">13.09B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""PCHEM:MK"">
@@ -650,15 +650,15 @@ var isPostBack = false;//]]>
                         Petronas Chemicals                                                                                   
                     </a>
                 </td>
-                <td id=""p"">7.18 </td>
+                <td id=""p"">7.20 </td>
                 <td id=""triangle"">
-                    <span class=""market-positive-image""></span>
+                    <span class=""market-negative-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.09 </td>
-                <td id=""pch"" style=""text-align: center;"">1.27%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-11.14%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""12276127378"">12.28B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.10 </td>
+                <td id=""pch"" style=""text-align: center;"">-1.37%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-14.29%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""12484351392"">12.48B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""IHH:MK"">
@@ -676,11 +676,11 @@ var isPostBack = false;//]]>
                 <td id=""triangle"">
                     <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.02 </td>
-                <td id=""pch"" style=""text-align: center;"">0.33%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">1.01%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""11312250202"">11.31B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0 </td>
+                <td id=""pch"" style=""text-align: center;"">0%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-0.83%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""11405557690"">11.41B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""DIGI:MK"">
@@ -694,15 +694,15 @@ var isPostBack = false;//]]>
                         CelcomDigi Bhd                                                                                       
                     </a>
                 </td>
-                <td id=""p"">4.12 </td>
+                <td id=""p"">4.21 </td>
                 <td id=""triangle"">
                     <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0 </td>
-                <td id=""pch"" style=""text-align: center;"">0%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">9.28%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""10329945055"">10.33B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.07 </td>
+                <td id=""pch"" style=""text-align: center;"">1.69%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">6.31%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""10635081707"">10.64B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""PMAH:MK"">
@@ -720,11 +720,11 @@ var isPostBack = false;//]]>
                 <td id=""triangle"">
                     <span class=""market-negative-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.04 </td>
-                <td id=""pch"" style=""text-align: center;"">-0.82%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">7.56%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""8523135295"">8.52B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.05 </td>
+                <td id=""pch"" style=""text-align: center;"">-1.02%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-1.43%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""8607759561"">8.61B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""HLBK:MK"">
@@ -738,15 +738,15 @@ var isPostBack = false;//]]>
                         Hong Leong Bank BHD                                                                                  
                     </a>
                 </td>
-                <td id=""p"">19.46 </td>
+                <td id=""p"">18.96 </td>
                 <td id=""triangle"">
-                    <span class=""market-negative-image""></span>
+                    <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.02 </td>
-                <td id=""pch"" style=""text-align: center;"">-0.10%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-5.26%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""8522413876"">8.52B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.08 </td>
+                <td id=""pch"" style=""text-align: center;"">0.42%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-7.24%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""8359346634"">8.36B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""PTG:MK"">
@@ -760,15 +760,15 @@ var isPostBack = false;//]]>
                         Petronas Gas Berhad                                                                                  
                     </a>
                 </td>
-                <td id=""p"">17.48 </td>
+                <td id=""p"">17.50 </td>
                 <td id=""triangle"">
                     <span class=""market-negative-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.14 </td>
-                <td id=""pch"" style=""text-align: center;"">-0.79%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">7.24%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""7392227800"">7.39B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.10 </td>
+                <td id=""pch"" style=""text-align: center;"">-0.57%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">2.94%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""7474165446"">7.47B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""MISC:MK"">
@@ -782,15 +782,15 @@ var isPostBack = false;//]]>
                         Misc BHD                                                                                             
                     </a>
                 </td>
-                <td id=""p"">7.30 </td>
+                <td id=""p"">7.40 </td>
                 <td id=""triangle"">
-                    <span class=""market-positive-image""></span>
+                    <span class=""market-negative-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0 </td>
-                <td id=""pch"" style=""text-align: center;"">0%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">2.96%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""6964168957"">6.96B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.02 </td>
+                <td id=""pch"" style=""text-align: center;"">-0.27%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">2.64%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""7120026700"">7.12B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""MAXIS:MK"">
@@ -804,15 +804,15 @@ var isPostBack = false;//]]>
                         Maxis BHD                                                                                            
                     </a>
                 </td>
-                <td id=""p"">3.89 </td>
+                <td id=""p"">3.86 </td>
                 <td id=""triangle"">
                     <span class=""market-positive-image""></span>
                 </td>
                 <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.03 </td>
                 <td id=""pch"" style=""text-align: center;"">0.78%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">2.91%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""6511387040"">6.51B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">1.85%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""6508417197"">6.51B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""IOI:MK"">
@@ -826,15 +826,59 @@ var isPostBack = false;//]]>
                         Ioi Corporation BHD                                                                                  
                     </a>
                 </td>
-                <td id=""p"">3.94 </td>
+                <td id=""p"">3.98 </td>
                 <td id=""triangle"">
                     <span class=""market-negative-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.03 </td>
-                <td id=""pch"" style=""text-align: center;"">-0.76%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">2.60%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""5223887015"">5.22B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.02 </td>
+                <td id=""pch"" style=""text-align: center;"">-0.50%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">1.79%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""5369485464"">5.37B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
+            </tr>
+        
+            <tr data-decimals=""2"" data-symbol=""YTL:MK"">
+                <td class=""d-none d-md-table-cell"">
+                    <a href=""/ytl:mk"">
+                        <b>YTL</b>
+                    </a>
+                </td>
+                <td style=""max-width: 150px;"">
+                    <a href=""/ytl:mk"">
+                        Ytl Corporation BHD                                                                                  
+                    </a>
+                </td>
+                <td id=""p"">2.19 </td>
+                <td id=""triangle"">
+                    <span class=""market-positive-image""></span>
+                </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.14 </td>
+                <td id=""pch"" style=""text-align: center;"">6.83%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">291.07%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""5182820245"">5.18B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
+            </tr>
+        
+            <tr data-decimals=""2"" data-symbol=""KLK:MK"">
+                <td class=""d-none d-md-table-cell"">
+                    <a href=""/klk:mk"">
+                        <b>KLK</b>
+                    </a>
+                </td>
+                <td style=""max-width: 150px;"">
+                    <a href=""/klk:mk"">
+                        Kuala Lumpur Kepong                                                                                  
+                    </a>
+                </td>
+                <td id=""p"">22.00 </td>
+                <td id=""triangle"">
+                    <span class=""market-positive-image""></span>
+                </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0 </td>
+                <td id=""pch"" style=""text-align: center;"">0%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">0.64%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""5125655172"">5.13B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""RHBC:MK"">
@@ -850,35 +894,13 @@ var isPostBack = false;//]]>
                 </td>
                 <td id=""p"">5.50 </td>
                 <td id=""triangle"">
-                    <span class=""market-negative-image""></span>
-                </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.03 </td>
-                <td id=""pch"" style=""text-align: center;"">-0.54%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-2.65%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""5038451497"">5.04B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
-            </tr>
-        
-            <tr data-decimals=""2"" data-symbol=""KLK:MK"">
-                <td class=""d-none d-md-table-cell"">
-                    <a href=""/klk:mk"">
-                        <b>KLK</b>
-                    </a>
-                </td>
-                <td style=""max-width: 150px;"">
-                    <a href=""/klk:mk"">
-                        Kuala Lumpur Kepong                                                                                  
-                    </a>
-                </td>
-                <td id=""p"">21.68 </td>
-                <td id=""triangle"">
                     <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.18 </td>
-                <td id=""pch"" style=""text-align: center;"">0.84%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">1.98%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""4996899375"">5B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.04 </td>
+                <td id=""pch"" style=""text-align: center;"">0.73%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-3.34%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""5088477133"">5.09B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""AXIATA:MK"">
@@ -892,37 +914,15 @@ var isPostBack = false;//]]>
                         Axiata                                                                                               
                     </a>
                 </td>
-                <td id=""p"">2.44 </td>
+                <td id=""p"">2.56 </td>
                 <td id=""triangle"">
                     <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.03 </td>
-                <td id=""pch"" style=""text-align: center;"">1.24%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-17.01%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""4786699376"">4.79B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
-            </tr>
-        
-            <tr data-decimals=""2"" data-symbol=""PETD:MK"">
-                <td class=""d-none d-md-table-cell"">
-                    <a href=""/petd:mk"">
-                        <b>PETD</b>
-                    </a>
-                </td>
-                <td style=""max-width: 150px;"">
-                    <a href=""/petd:mk"">
-                        Petronas Dagangan                                                                                    
-                    </a>
-                </td>
-                <td id=""p"">22.08 </td>
-                <td id=""triangle"">
-                    <span class=""market-negative-image""></span>
-                </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.04 </td>
-                <td id=""pch"" style=""text-align: center;"">-0.18%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">0.82%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""4688066749"">4.69B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.07 </td>
+                <td id=""pch"" style=""text-align: center;"">2.81%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-13.51%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""5052161814"">5.05B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""T:MK"">
@@ -936,37 +936,37 @@ var isPostBack = false;//]]>
                         Telekom Malaysia Bhd                                                                                 
                     </a>
                 </td>
-                <td id=""p"">5.50 </td>
+                <td id=""p"">5.70 </td>
                 <td id=""triangle"">
                     <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.06 </td>
-                <td id=""pch"" style=""text-align: center;"">1.10%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">7.84%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""4509981052"">4.51B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0 </td>
+                <td id=""pch"" style=""text-align: center;"">0%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">7.55%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""4721450722"">4.72B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
-            <tr data-decimals=""2"" data-symbol=""YTL:MK"">
+            <tr data-decimals=""2"" data-symbol=""PETD:MK"">
                 <td class=""d-none d-md-table-cell"">
-                    <a href=""/ytl:mk"">
-                        <b>YTL</b>
+                    <a href=""/petd:mk"">
+                        <b>PETD</b>
                     </a>
                 </td>
                 <td style=""max-width: 150px;"">
-                    <a href=""/ytl:mk"">
-                        Ytl Corporation BHD                                                                                  
+                    <a href=""/petd:mk"">
+                        Petronas Dagangan                                                                                    
                     </a>
                 </td>
-                <td id=""p"">1.92 </td>
+                <td id=""p"">21.10 </td>
                 <td id=""triangle"">
-                    <span class=""market-negative-image""></span>
+                    <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.01 </td>
-                <td id=""pch"" style=""text-align: center;"">-0.52%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">233.91%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""4499171162"">4.5B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.02 </td>
+                <td id=""pch"" style=""text-align: center;"">0.09%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-5.38%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""4524472135"">4.52B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""HLFG:MK"">
@@ -980,15 +980,15 @@ var isPostBack = false;//]]>
                         Hong Leong Fin                                                                                       
                     </a>
                 </td>
-                <td id=""p"">16.50 </td>
+                <td id=""p"">16.46 </td>
                 <td id=""triangle"">
-                    <span class=""market-positive-image""></span>
+                    <span class=""market-negative-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.06 </td>
-                <td id=""pch"" style=""text-align: center;"">0.37%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-11.86%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""3999290376"">4B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.10 </td>
+                <td id=""pch"" style=""text-align: center;"">-0.60%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-11.60%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""4038998417"">4.04B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""GENT:MK"">
@@ -1002,37 +1002,15 @@ var isPostBack = false;//]]>
                         Genting Berhad                                                                                       
                     </a>
                 </td>
-                <td id=""p"">4.67 </td>
+                <td id=""p"">4.72 </td>
                 <td id=""triangle"">
                     <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.03 </td>
-                <td id=""pch"" style=""text-align: center;"">0.65%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">6.14%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""3843169562"">3.84B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
-            </tr>
-        
-            <tr data-decimals=""2"" data-symbol=""SIME:MK"">
-                <td class=""d-none d-md-table-cell"">
-                    <a href=""/sime:mk"">
-                        <b>SIME</b>
-                    </a>
-                </td>
-                <td style=""max-width: 150px;"">
-                    <a href=""/sime:mk"">
-                        Sime Darby BHD                                                                                       
-                    </a>
-                </td>
-                <td id=""p"">2.45 </td>
-                <td id=""triangle"">
-                    <span class=""market-positive-image""></span>
-                </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.02 </td>
-                <td id=""pch"" style=""text-align: center;"">0.82%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">13.95%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""3568757013"">3.57B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.04 </td>
+                <td id=""pch"" style=""text-align: center;"">0.85%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">0.21%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""3931194679"">3.93B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""GENM:MK"">
@@ -1046,15 +1024,37 @@ var isPostBack = false;//]]>
                         Genting Bhd                                                                                          
                     </a>
                 </td>
-                <td id=""p"">2.71 </td>
+                <td id=""p"">2.80 </td>
                 <td id=""triangle"">
                     <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.01 </td>
-                <td id=""pch"" style=""text-align: center;"">0.37%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">1.88%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""3282662983"">3.28B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.06 </td>
+                <td id=""pch"" style=""text-align: center;"">2.19%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">1.45%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""3437589957"">3.44B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
+            </tr>
+        
+            <tr data-decimals=""2"" data-symbol=""SIME:MK"">
+                <td class=""d-none d-md-table-cell"">
+                    <a href=""/sime:mk"">
+                        <b>SIME</b>
+                    </a>
+                </td>
+                <td style=""max-width: 150px;"">
+                    <a href=""/sime:mk"">
+                        Sime Darby BHD                                                                                       
+                    </a>
+                </td>
+                <td id=""p"">2.33 </td>
+                <td id=""triangle"">
+                    <span class=""market-negative-image""></span>
+                </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.02 </td>
+                <td id=""pch"" style=""text-align: center;"">-0.85%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">1.30%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""3427658613"">3.43B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""KLCCSS:MK"">
@@ -1068,15 +1068,15 @@ var isPostBack = false;//]]>
                         Klcc Property Hldgs                                                                                  
                     </a>
                 </td>
-                <td id=""p"">7.14 </td>
+                <td id=""p"">7.24 </td>
                 <td id=""triangle"">
-                    <span class=""market-negative-image""></span>
+                    <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.01 </td>
-                <td id=""pch"" style=""text-align: center;"">-0.14%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">6.09%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""2754878866"">2.75B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.04 </td>
+                <td id=""pch"" style=""text-align: center;"">0.56%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">7.26%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""2809508208"">2.81B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""MAHB:MK"">
@@ -1090,15 +1090,15 @@ var isPostBack = false;//]]>
                         Malaysia Airports                                                                                    
                     </a>
                 </td>
-                <td id=""p"">7.41 </td>
+                <td id=""p"">7.55 </td>
                 <td id=""triangle"">
-                    <span class=""market-negative-image""></span>
+                    <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.03 </td>
-                <td id=""pch"" style=""text-align: center;"">-0.40%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">14.00%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""2642442475"">2.64B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.03 </td>
+                <td id=""pch"" style=""text-align: center;"">0.40%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">12.02%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""2737106342"">2.74B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""DLG:MK"">
@@ -1112,15 +1112,15 @@ var isPostBack = false;//]]>
                         Dialog Berhad                                                                                        
                     </a>
                 </td>
-                <td id=""p"">2.04 </td>
+                <td id=""p"">2.08 </td>
                 <td id=""triangle"">
                     <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.06 </td>
-                <td id=""pch"" style=""text-align: center;"">3.03%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-11.69%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""2460110969"">2.46B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.01 </td>
+                <td id=""pch"" style=""text-align: center;"">0.48%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-14.05%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""2545432360"">2.55B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""HAP:MK"">
@@ -1134,15 +1134,15 @@ var isPostBack = false;//]]>
                         Hap Seng Consolidate                                                                                 
                     </a>
                 </td>
-                <td id=""p"">4.59 </td>
+                <td id=""p"">4.60 </td>
                 <td id=""triangle"">
-                    <span class=""market-positive-image""></span>
+                    <span class=""market-negative-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.04 </td>
-                <td id=""pch"" style=""text-align: center;"">0.88%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-27.37%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""2442313184"">2.44B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.03 </td>
+                <td id=""pch"" style=""text-align: center;"">-0.65%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">-30.30%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""2482683676"">2.48B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""FNH:MK"">
@@ -1156,15 +1156,15 @@ var isPostBack = false;//]]>
                         Fraser &amp; Neave                                                                                       
                     </a>
                 </td>
-                <td id=""p"">28.20 </td>
+                <td id=""p"">28.34 </td>
                 <td id=""triangle"">
                     <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.20 </td>
-                <td id=""pch"" style=""text-align: center;"">0.71%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">34.16%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""2210547922"">2.21B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.16 </td>
+                <td id=""pch"" style=""text-align: center;"">0.57%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">29.76%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""2241995931"">2.24B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""HART:MK"">
@@ -1178,15 +1178,15 @@ var isPostBack = false;//]]>
                         Hartalega Holdings                                                                                   
                     </a>
                 </td>
-                <td id=""p"">2.63 </td>
+                <td id=""p"">2.95 </td>
                 <td id=""triangle"">
-                    <span class=""market-negative-image""></span>
+                    <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.05 </td>
-                <td id=""pch"" style=""text-align: center;"">-1.87%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">64.38%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""1918546420"">1.92B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.11 </td>
+                <td id=""pch"" style=""text-align: center;"">3.87%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">82.10%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""2151246415"">2.15B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""TOPG:MK"">
@@ -1200,15 +1200,15 @@ var isPostBack = false;//]]>
                         Top Glove                                                                                            
                     </a>
                 </td>
-                <td id=""p"">0.91 </td>
+                <td id=""p"">0.98 </td>
                 <td id=""triangle"">
-                    <span class=""market-negative-image""></span>
+                    <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.04 </td>
-                <td id=""pch"" style=""text-align: center;"">-3.72%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">25.69%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""1548917564"">1.55B</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.01 </td>
+                <td id=""pch"" style=""text-align: center;"">1.03%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">9.50%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""1693938807"">1.69B</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""UOAD:MK"">
@@ -1222,15 +1222,15 @@ var isPostBack = false;//]]>
                         Uoa Develop                                                                                          
                     </a>
                 </td>
-                <td id=""p"">1.80 </td>
+                <td id=""p"">1.75 </td>
                 <td id=""triangle"">
                     <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.01 </td>
-                <td id=""pch"" style=""text-align: center;"">0.56%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">11.80%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""958057982"">958.06M</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0 </td>
+                <td id=""pch"" style=""text-align: center;"">0%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">6.71%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""940693368"">940.69M</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             <tr data-decimals=""2"" data-symbol=""7106:MK"">
@@ -1244,15 +1244,15 @@ var isPostBack = false;//]]>
                         Supermax Corporation Bhd                                                                             
                     </a>
                 </td>
-                <td id=""p"">0.94 </td>
+                <td id=""p"">1.01 </td>
                 <td id=""triangle"">
-                    <span class=""market-negative-image""></span>
+                    <span class=""market-positive-image""></span>
                 </td>
-                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">-0.04 </td>
-                <td id=""pch"" style=""text-align: center;"">-3.59%</td>
-                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">27.89%</td>
-                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""517536300"">517.54M</td>
-                <td id=""date"" class=""d-none d-sm-table-cell"">2023-12-20 </td>
+                <td id=""nch"" data-no-triangle=""true"" style=""text-align: center;"">0.05 </td>
+                <td id=""pch"" style=""text-align: center;"">5.21%</td>
+                <td class=""d-none d-sm-table-cell"" style=""text-align: center;"">18.13%</td>
+                <td class=""d-none d-md-table-cell"" style=""text-align: center;"" data-value=""561597392"">561.6M</td>
+                <td id=""date"" class=""d-none d-sm-table-cell"">2024-01-05 </td>
             </tr>
         
             </table></div>
@@ -1277,8 +1277,108 @@ var isPostBack = false;//]]>
 
 
 
-
 <div id=""ctl00_ContentPlaceHolder1_ctl00_ctl01_Panel1"">
+	
+    <br>
+    <div class=""card"">
+        <div class=""table-responsive"">
+            <table class=""table table-hover"">
+                <thead>
+                    <tr>
+                        <th style=""text-align: left;""></th>
+                        <th>
+                            گذشته</th>
+                        
+                        <th>
+                            قبلی</th>
+                        
+                        <th>
+                            واحد</th>
+                        <th>
+                            مرجع</th>
+                    </tr>
+                </thead>
+                
+                        <tr class=""datatable-row"">
+                            <td style=""padding-left: 10px; text-align: left;"">
+                                <a href=""/malaysia/gdp-growth"">
+                                    مالزی نرخ رشد تولید ناخالص داخلی
+                                </a>
+                            </td>
+
+                            <td>2.60</td>
+                            
+                            <td>1.50</td>
+                            
+                            <td>
+                                در صد</td>
+                            <td>Sep 2023</td>
+                        </tr>
+                    
+                        <tr class=""datatable-row-alternating"">
+                            <td style=""padding-left: 10px; text-align: left;"">
+                                <a href=""/malaysia/inflation-cpi"">
+                                    مالزی نرخ تورم
+                                </a>
+                            </td>
+
+                            <td>1.50</td>
+                            
+                            <td>1.80</td>
+                            
+                            <td>
+                                در صد</td>
+                            <td>Nov 2023</td>
+                        </tr>
+                    
+                        <tr class=""datatable-row"">
+                            <td style=""padding-left: 10px; text-align: left;"">
+                                <a href=""/malaysia/interest-rate"">
+                                    مالزی نرخ بهره
+                                </a>
+                            </td>
+
+                            <td>3.00</td>
+                            
+                            <td>3.00</td>
+                            
+                            <td>
+                                در صد</td>
+                            <td>Nov 2023</td>
+                        </tr>
+                    
+                        <tr class=""datatable-row-alternating"">
+                            <td style=""padding-left: 10px; text-align: left;"">
+                                <a href=""/malaysia/unemployment-rate"">
+                                    مالزی نرخ بیکاری
+                                </a>
+                            </td>
+
+                            <td>3.40</td>
+                            
+                            <td>3.40</td>
+                            
+                            <td>
+                                در صد</td>
+                            <td>Oct 2023</td>
+                        </tr>
+                    
+            </table>
+        </div>
+        <div class=""card-footer"">
+            <a href=""/indicators"">
+                <div class=""btn btn-outline-secondary"">
+                    <i class=""bi bi-plus-lg""></i>
+                </div>
+            </a>
+        </div>
+    </div>
+    <br><br>
+
+</div>
+
+
+<div id=""ctl00_ContentPlaceHolder1_ctl00_ctl02_Panel1"">
 	
     <div class=""card"">
         <div class=""card-header"">مالزی - بازار سهام</div>
@@ -1311,12 +1411,12 @@ var isPostBack = false;//]]>
             
                 <tr>
                     <td></td>
-                    <td>1464.56</td>
-                    <td>1465.67</td>
+                    <td>1487.61</td>
+                    <td>1477.26</td>
                     <td>1896.23</td>
                     <td>169.83</td>
                     
-                    <td>1982 - 2023</td>
+                    <td>1982 - 2024</td>
                     <td>
                         امتیاز</td>
                     <td>
@@ -1335,7 +1435,7 @@ var isPostBack = false;//]]>
 
 </div>
 
-<div id=""ctl00_ContentPlaceHolder1_ctl00_ctl01_Panel3"">
+<div id=""ctl00_ContentPlaceHolder1_ctl00_ctl02_Panel3"">
 	
     <div class=""card"">
         <div class=""card-body"" style=""text-align: justify"">
@@ -1369,7 +1469,7 @@ var isPostBack = false;//]]>
 @media only screen and (max-width: 380px) {#market-widget .nav > li > a {padding-left: 3px;padding-right: 3px;}}
 </style>
 
-<div id=""ctl00_LeftSideMenuContainer1__ff6a4c5fc1ff0489_Panel1"">
+<div id=""ctl00_LeftSideMenuContainer1__ff4a618de9a8af02_Panel1"">
 	
 <div id=""market-widget"" class=""card"">
     <ul class=""nav nav-tabs "" role=""tablist"" id=""mainWidget"">
@@ -1382,7 +1482,7 @@ var isPostBack = false;//]]>
     </ul>
     <div class=""tab-content"" style=""margin-bottom: -15px"">
         
-                <input type=""hidden"" name=""ctl00$LeftSideMenuContainer1$_ff6a4c5fc1ff0489$Repeater1$ctl00$group"" id=""ctl00_LeftSideMenuContainer1__ff6a4c5fc1ff0489_Repeater1_ctl00_group"" value=""Commodity"">
+                <input type=""hidden"" name=""ctl00$LeftSideMenuContainer1$_ff4a618de9a8af02$Repeater1$ctl00$group"" id=""ctl00_LeftSideMenuContainer1__ff4a618de9a8af02_Repeater1_ctl00_group"" value=""Commodity"">
                 <div role=""tabpanel"" class=""tab-pane fade show "" id=""Commodity"">
                         <table class=""table table-condensed"" style=""padding-bottom: -10px;"">
                             <thead class=""market-widget-thead"" style=""display: none;"">
@@ -1404,14 +1504,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                73.689 
+                                                73.922 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.25 
+                                                <span class=""market-positive-image""></span>
+                                                1.73 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.34%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                2.40%
                                             </td>
                                           
                                         </tr>
@@ -1422,14 +1522,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                79.010 
+                                                78.894 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.22 
+                                                <span class=""market-positive-image""></span>
+                                                1.30 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.28%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                1.68%
                                             </td>
                                           
                                         </tr>
@@ -1440,14 +1540,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                2.4251 
+                                                2.8954 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                0.07 
+                                                0.01 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -2.68%
+                                                -0.43%
                                             </td>
                                           
                                         </tr>
@@ -1458,14 +1558,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                2.1728 
+                                                2.1063 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                0.03 
+                                                0.00 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.27%
+                                                -0.20%
                                             </td>
                                           
                                         </tr>
@@ -1476,14 +1576,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                2.6950 
+                                                2.6277 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
+                                                <span class=""market-positive-image""></span>
                                                 0.02 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.80%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.74%
                                             </td>
                                           
                                         </tr>
@@ -1494,14 +1594,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                2031.81 
+                                                2044.04 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                8.31 
+                                                <span class=""market-positive-image""></span>
+                                                0.78 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.41%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.04%
                                             </td>
                                           
                                         </tr>
@@ -1512,14 +1612,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                24.137 
+                                                23.117 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-positive-image""></span>
-                                                0.11 
+                                                0.13 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.46%
+                                                0.55%
                                             </td>
                                           
                                         </tr>
@@ -1530,14 +1630,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                3.8757 
+                                                3.7908 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                0.03 
+                                                0.04 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.82%
+                                                -1.12%
                                             </td>
                                           
                                         </tr>
@@ -1548,14 +1648,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                1308.00 
+                                                1250.25 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                4.50 
+                                                11.75 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.34%
+                                                -0.93%
                                             </td>
                                           
                                         </tr>
@@ -1566,14 +1666,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                609.94 
+                                                616.26 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                12.81 
+                                                <span class=""market-positive-image""></span>
+                                                2.76 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -2.06%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.45%
                                             </td>
                                           
                                         </tr>
@@ -1584,14 +1684,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                145.25 
+                                                131.55 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-positive-image""></span>
-                                                0.50 
+                                                0.65 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.35%
+                                                0.50%
                                             </td>
                                           
                                         </tr>
@@ -1602,14 +1702,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                3859.00 
+                                                3892.00 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                13.00 
+                                                19.00 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.34%
+                                                -0.49%
                                             </td>
                                           
                                         </tr>
@@ -1620,14 +1720,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                135.00 
+                                                141.50 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                0.50 
+                                                3.50 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.37%
+                                                -2.41%
                                             </td>
                                           
                                         </tr>
@@ -1638,14 +1738,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                33.52 
+                                                34.55 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-positive-image""></span>
-                                                0.95 
+                                                1.14 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                2.93%
+                                                3.42%
                                             </td>
                                           
                                         </tr>
@@ -1656,14 +1756,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                555.51 
+                                                550.41 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                8.01 
+                                                <span class=""market-negative-image""></span>
+                                                1.09 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                1.46%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -0.20%
                                             </td>
                                           
                                         </tr>
@@ -1677,7 +1777,7 @@ var isPostBack = false;//]]>
                         </table>
                 </div>
             
-                <input type=""hidden"" name=""ctl00$LeftSideMenuContainer1$_ff6a4c5fc1ff0489$Repeater1$ctl01$group"" id=""ctl00_LeftSideMenuContainer1__ff6a4c5fc1ff0489_Repeater1_ctl01_group"" value=""Currency"">
+                <input type=""hidden"" name=""ctl00$LeftSideMenuContainer1$_ff4a618de9a8af02$Repeater1$ctl01$group"" id=""ctl00_LeftSideMenuContainer1__ff4a618de9a8af02_Repeater1_ctl01_group"" value=""Currency"">
                 <div role=""tabpanel"" class=""tab-pane fade show "" id=""FX"">
                         <table class=""table table-condensed"" style=""padding-bottom: -10px;"">
                             <thead class=""market-widget-thead"" style=""display: none;"">
@@ -1699,14 +1799,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                1.09435 
+                                                1.09404 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                0.0037 
+                                                0.0001 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.33%
+                                                -0.01%
                                             </td>
                                           
                                         </tr>
@@ -1717,14 +1817,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                1.26384 
+                                                1.27122 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                0.0092 
+                                                0.0004 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.72%
+                                                -0.03%
                                             </td>
                                           
                                         </tr>
@@ -1735,14 +1835,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                0.67349 
+                                                0.67129 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                0.0026 
+                                                0.0000 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.39%
+                                                0.00%
                                             </td>
                                           
                                         </tr>
@@ -1753,14 +1853,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                0.62526 
+                                                0.62390 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.0016 
+                                                <span class=""market-positive-image""></span>
+                                                0.0005 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.26%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.08%
                                             </td>
                                           
                                         </tr>
@@ -1771,14 +1871,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                143.500 
+                                                144.675 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.3200 
+                                                <span class=""market-positive-image""></span>
+                                                0.0250 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.22%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.02%
                                             </td>
                                           
                                         </tr>
@@ -1789,14 +1889,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                7.15015 
+                                                7.16279 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                0.0283 
+                                                <span class=""market-negative-image""></span>
+                                                0.0029 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.40%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -0.04%
                                             </td>
                                           
                                         </tr>
@@ -1807,14 +1907,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                0.86267 
+                                                0.84980 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                0.0019 
+                                                <span class=""market-negative-image""></span>
+                                                0.0002 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.22%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -0.02%
                                             </td>
                                           
                                         </tr>
@@ -1825,14 +1925,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                1.33604 
+                                                1.33620 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-positive-image""></span>
-                                                0.0029 
+                                                0.0015 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.22%
+                                                0.11%
                                             </td>
                                           
                                         </tr>
@@ -1843,14 +1943,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                17.1409 
+                                                16.8660 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                0.0749 
+                                                <span class=""market-negative-image""></span>
+                                                0.1420 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.44%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -0.83%
                                             </td>
                                           
                                         </tr>
@@ -1861,14 +1961,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                83.1390 
+                                                83.1030 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                0.0330 
+                                                <span class=""market-negative-image""></span>
+                                                0.1400 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.04%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -0.17%
                                             </td>
                                           
                                         </tr>
@@ -1879,14 +1979,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                4.91630 
+                                                4.87430 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                0.0488 
+                                                <span class=""market-negative-image""></span>
+                                                0.0225 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                1.00%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -0.46%
                                             </td>
                                           
                                         </tr>
@@ -1897,14 +1997,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                89.6480 
+                                                90.9205 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                0.8225 
+                                                0.4250 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.91%
+                                                -0.47%
                                             </td>
                                           
                                         </tr>
@@ -1915,14 +2015,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                1303.08 
+                                                1314.16 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-positive-image""></span>
-                                                2.8700 
+                                                1.0800 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.22%
+                                                0.08%
                                             </td>
                                           
                                         </tr>
@@ -1933,14 +2033,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                29.1339 
+                                                29.8806 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-positive-image""></span>
-                                                0.0638 
+                                                0.0604 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.22%
+                                                0.20%
                                             </td>
                                           
                                         </tr>
@@ -1951,14 +2051,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                102.410 
+                                                102.441 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-positive-image""></span>
-                                                0.2425 
+                                                0.0061 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.24%
+                                                0.01%
                                             </td>
                                           
                                         </tr>
@@ -1972,7 +2072,7 @@ var isPostBack = false;//]]>
                         </table>
                 </div>
             
-                <input type=""hidden"" name=""ctl00$LeftSideMenuContainer1$_ff6a4c5fc1ff0489$Repeater1$ctl02$group"" id=""ctl00_LeftSideMenuContainer1__ff6a4c5fc1ff0489_Repeater1_ctl02_group"" value=""Index"">
+                <input type=""hidden"" name=""ctl00$LeftSideMenuContainer1$_ff4a618de9a8af02$Repeater1$ctl02$group"" id=""ctl00_LeftSideMenuContainer1__ff4a618de9a8af02_Repeater1_ctl02_group"" value=""Index"">
                 <div role=""tabpanel"" class=""tab-pane fade show active"" id=""Index"">
                         <table class=""table table-condensed"" style=""padding-bottom: -10px;"">
                             <thead class=""market-widget-thead"" style=""display: none;"">
@@ -1994,14 +2094,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                4706.95 
+                                                4700.48 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                61 
+                                                <span class=""market-positive-image""></span>
+                                                3 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.29%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.07%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2012,14 +2112,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                37153 
+                                                37420 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                405 
+                                                46 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.08%
+                                                -0.12%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2030,14 +2130,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                16598 
+                                                16317 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                214 
+                                                <span class=""market-positive-image""></span>
+                                                12 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.27%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.07%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2048,14 +2148,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                33181 
+                                                33493 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                38 
+                                                <span class=""market-positive-image""></span>
+                                                205 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.12%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.61%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2066,14 +2166,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                7716 
+                                                7690 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                78 
+                                                <span class=""market-negative-image""></span>
+                                                33 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                1.02%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -0.43%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2084,14 +2184,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                16733 
+                                                16594 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                11 
+                                                23 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.07%
+                                                -0.14%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2102,14 +2202,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                7583 
+                                                7421 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                9 
+                                                <span class=""market-negative-image""></span>
+                                                30 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.12%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -0.40%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2120,14 +2220,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                30361 
+                                                30441 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                2 
+                                                <span class=""market-positive-image""></span>
+                                                37 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.01%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.12%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2138,14 +2238,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                10101 
+                                                10165 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                6 
+                                                18 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.06%
+                                                -0.18%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2156,14 +2256,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                7510 
+                                                7488 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                21 
+                                                <span class=""market-negative-image""></span>
+                                                1 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.28%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -0.01%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2174,14 +2274,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                2902 
+                                                2929 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                30 
+                                                25 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.03%
+                                                -0.85%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2192,14 +2292,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                70506 
+                                                72026 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                931 
+                                                <span class=""market-positive-image""></span>
+                                                179 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.30%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.25%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2210,14 +2310,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                20601 
+                                                20938 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                239 
+                                                <span class=""market-positive-image""></span>
+                                                66 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.15%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.32%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2228,14 +2328,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                3105 
+                                                3136 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-positive-image""></span>
-                                                21 
+                                                0 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.68%
+                                                0.01%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2246,14 +2346,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                130804 
+                                                132023 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                1,047 
+                                                <span class=""market-positive-image""></span>
+                                                797 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.79%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.61%
                                             </td>
                                          <td id=""session"" class=""d-none d-md-table-cell""><span class=""bi bi-clock"" style=""font-size:10px; color: darkred"" title=""closed trading session""></span></td> 
                                         </tr>
@@ -2267,7 +2367,7 @@ var isPostBack = false;//]]>
                         </table>
                 </div>
             
-                <input type=""hidden"" name=""ctl00$LeftSideMenuContainer1$_ff6a4c5fc1ff0489$Repeater1$ctl03$group"" id=""ctl00_LeftSideMenuContainer1__ff6a4c5fc1ff0489_Repeater1_ctl03_group"" value=""Stocks"">
+                <input type=""hidden"" name=""ctl00$LeftSideMenuContainer1$_ff4a618de9a8af02$Repeater1$ctl03$group"" id=""ctl00_LeftSideMenuContainer1__ff4a618de9a8af02_Repeater1_ctl03_group"" value=""Stocks"">
                 <div role=""tabpanel"" class=""tab-pane fade show "" id=""Share"">
                         <table class=""table table-condensed"" style=""padding-bottom: -10px;"">
                             <thead class=""market-widget-thead"" style=""display: none;"">
@@ -2289,14 +2389,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                194.83 
+                                                181.18 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                2.11 
+                                                0.73 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.07%
+                                                -0.40%
                                             </td>
                                           
                                         </tr>
@@ -2307,14 +2407,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                247.14 
+                                                237.49 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                10.08 
+                                                0.44 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -3.92%
+                                                -0.18%
                                             </td>
                                           
                                         </tr>
@@ -2325,14 +2425,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                370.62 
+                                                367.75 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                2.64 
+                                                0.19 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.71%
+                                                -0.05%
                                             </td>
                                           
                                         </tr>
@@ -2343,14 +2443,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                152.12 
+                                                145.24 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                1.67 
+                                                <span class=""market-positive-image""></span>
+                                                0.67 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.09%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.46%
                                             </td>
                                           
                                         </tr>
@@ -2361,14 +2461,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                349.28 
+                                                351.95 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                1.08 
+                                                <span class=""market-positive-image""></span>
+                                                4.83 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.31%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                1.39%
                                             </td>
                                           
                                         </tr>
@@ -2379,14 +2479,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                481.11 
+                                                490.97 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                14.93 
+                                                <span class=""market-positive-image""></span>
+                                                10.99 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -3.01%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                2.29%
                                             </td>
                                           
                                         </tr>
@@ -2397,14 +2497,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                257.11 
+                                                259.69 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                2.88 
+                                                <span class=""market-positive-image""></span>
+                                                0.08 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.11%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.03%
                                             </td>
                                           
                                         </tr>
@@ -2415,14 +2515,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                166.55 
+                                                172.27 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                1.90 
+                                                <span class=""market-positive-image""></span>
+                                                0.86 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.13%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.50%
                                             </td>
                                           
                                         </tr>
@@ -2433,14 +2533,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                45.76 
+                                                46.89 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.90 
+                                                <span class=""market-positive-image""></span>
+                                                0.02 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.93%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.04%
                                             </td>
                                           
                                         </tr>
@@ -2451,14 +2551,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                153.27 
+                                                161.13 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                3.19 
+                                                <span class=""market-positive-image""></span>
+                                                0.50 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -2.04%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.31%
                                             </td>
                                           
                                         </tr>
@@ -2469,14 +2569,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                143.91 
+                                                147.42 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                2.26 
+                                                1.23 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.55%
+                                                -0.83%
                                             </td>
                                           
                                         </tr>
@@ -2487,14 +2587,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                101.27 
+                                                102.63 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                1.72 
+                                                <span class=""market-positive-image""></span>
+                                                0.31 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.67%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.30%
                                             </td>
                                           
                                         </tr>
@@ -2505,14 +2605,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                103.67 
+                                                108.59 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                2.58 
+                                                <span class=""market-positive-image""></span>
+                                                0.42 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -2.43%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.39%
                                             </td>
                                           
                                         </tr>
@@ -2523,14 +2623,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                377.52 
+                                                386.44 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                4.93 
+                                                <span class=""market-positive-image""></span>
+                                                3.49 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.29%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.91%
                                             </td>
                                           
                                         </tr>
@@ -2541,14 +2641,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                289.71 
+                                                288.93 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                3.25 
+                                                <span class=""market-positive-image""></span>
+                                                2.83 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.11%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.99%
                                             </td>
                                           
                                         </tr>
@@ -2562,7 +2662,7 @@ var isPostBack = false;//]]>
                         </table>
                 </div>
             
-                <input type=""hidden"" name=""ctl00$LeftSideMenuContainer1$_ff6a4c5fc1ff0489$Repeater1$ctl04$group"" id=""ctl00_LeftSideMenuContainer1__ff6a4c5fc1ff0489_Repeater1_ctl04_group"" value=""Bond"">
+                <input type=""hidden"" name=""ctl00$LeftSideMenuContainer1$_ff4a618de9a8af02$Repeater1$ctl04$group"" id=""ctl00_LeftSideMenuContainer1__ff4a618de9a8af02_Repeater1_ctl04_group"" value=""Bond"">
                 <div role=""tabpanel"" class=""tab-pane fade show "" id=""Bond"">
                         <table class=""table table-condensed"" style=""padding-bottom: -10px;"">
                             <thead class=""market-widget-thead"" style=""display: none;"">
@@ -2584,14 +2684,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                3.8603 
+                                                4.0420 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.062 
+                                                <span class=""market-positive-image""></span>
+                                                0.051 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.06%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.05%
                                             </td>
                                           
                                         </tr>
@@ -2602,14 +2702,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                3.5260 
+                                                3.7890 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.129 
+                                                <span class=""market-positive-image""></span>
+                                                0.062 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.11%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.06%
                                             </td>
                                           
                                         </tr>
@@ -2620,14 +2720,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                0.5540 
+                                                0.6010 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                0.086 
+                                                0.016 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.09%
+                                                -0.02%
                                             </td>
                                           
                                         </tr>
@@ -2638,14 +2738,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                4.0160 
+                                                4.1280 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.106 
+                                                <span class=""market-positive-image""></span>
+                                                0.083 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.11%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.08%
                                             </td>
                                           
                                         </tr>
@@ -2656,14 +2756,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                1.9780 
+                                                2.1430 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.040 
+                                                <span class=""market-positive-image""></span>
+                                                0.038 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.04%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.04%
                                             </td>
                                           
                                         </tr>
@@ -2674,14 +2774,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                10.5100 
+                                                10.5950 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.100 
+                                                <span class=""market-positive-image""></span>
+                                                0.025 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.15%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.03%
                                             </td>
                                           
                                         </tr>
@@ -2692,14 +2792,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                12.2000 
+                                                12.3800 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.160 
+                                                <span class=""market-positive-image""></span>
+                                                0.090 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.16%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.09%
                                             </td>
                                           
                                         </tr>
@@ -2710,14 +2810,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                7.1710 
+                                                7.2350 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-positive-image""></span>
-                                                0.000 
+                                                0.015 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.00%
+                                                0.02%
                                             </td>
                                           
                                         </tr>
@@ -2728,14 +2828,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                3.0590 
+                                                3.2630 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.083 
+                                                <span class=""market-positive-image""></span>
+                                                0.021 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.08%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.02%
                                             </td>
                                           
                                         </tr>
@@ -2746,14 +2846,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                3.6050 
+                                                3.8290 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.037 
+                                                <span class=""market-positive-image""></span>
+                                                0.029 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.04%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.03%
                                             </td>
                                           
                                         </tr>
@@ -2764,14 +2864,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                2.4790 
+                                                2.6800 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.043 
+                                                <span class=""market-positive-image""></span>
+                                                0.027 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.04%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.03%
                                             </td>
                                           
                                         </tr>
@@ -2782,11 +2882,11 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                9.6900 
+                                                9.8650 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                0.040 
+                                                0.035 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
                                                 -0.04%
@@ -2800,7 +2900,25 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                2.6410 
+                                                2.5670 
+                                            </td>
+                                            <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
+                                                <span class=""market-negative-image""></span>
+                                                0.004 
+                                            </td>
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                0.00%
+                                            </td>
+                                          
+                                        </tr>
+                                    
+                                        <tr class=""datatable-row-alternating"" data-symbol=""GSWISS10:IND"" data-decimals=""4"">
+                                            <td class=""datatable-item-first"" style=""max-width: 80px; overflow: hidden;"">
+                                                <a href=""/switzerland/government-bond-yield""><b>سوئیس</b>  </a>
+                                            </td>
+                                            <td id=""p"" class=""market-widget-last"">
+                                                 
+                                                0.8300 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-positive-image""></span>
@@ -2812,38 +2930,20 @@ var isPostBack = false;//]]>
                                           
                                         </tr>
                                     
-                                        <tr class=""datatable-row-alternating"" data-symbol=""GSWISS10:IND"" data-decimals=""4"">
-                                            <td class=""datatable-item-first"" style=""max-width: 80px; overflow: hidden;"">
-                                                <a href=""/switzerland/government-bond-yield""><b>سوئیس</b>  </a>
-                                            </td>
-                                            <td id=""p"" class=""market-widget-last"">
-                                                 
-                                                0.6710 
-                                            </td>
-                                            <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                0.016 
-                                            </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.02%
-                                            </td>
-                                          
-                                        </tr>
-                                    
                                         <tr class=""datatable-row"" data-symbol=""CHLGOVBON10Y:GOV"" data-decimals=""4"">
                                             <td class=""datatable-item-first"" style=""max-width: 80px; overflow: hidden;"">
                                                 <a href=""/chile/government-bond-yield""><b>شیلی</b>  </a>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                5.3500 
+                                                5.5400 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-negative-image""></span>
-                                                0.070 
+                                                <span class=""market-positive-image""></span>
+                                                0.050 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.07%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
+                                                0.05%
                                             </td>
                                           
                                         </tr>
@@ -2857,7 +2957,7 @@ var isPostBack = false;//]]>
                         </table>
                 </div>
             
-                <input type=""hidden"" name=""ctl00$LeftSideMenuContainer1$_ff6a4c5fc1ff0489$Repeater1$ctl05$group"" id=""ctl00_LeftSideMenuContainer1__ff6a4c5fc1ff0489_Repeater1_ctl05_group"" value=""Crypto"">
+                <input type=""hidden"" name=""ctl00$LeftSideMenuContainer1$_ff4a618de9a8af02$Repeater1$ctl05$group"" id=""ctl00_LeftSideMenuContainer1__ff4a618de9a8af02_Repeater1_ctl05_group"" value=""Crypto"">
                 <div role=""tabpanel"" class=""tab-pane fade show "" id=""Crypto"">
                         <table class=""table table-condensed"" style=""padding-bottom: -10px;"">
                             <thead class=""market-widget-thead"" style=""display: none;"">
@@ -2879,14 +2979,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                43632 
+                                                43761 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                1,136 
+                                                <span class=""market-negative-image""></span>
+                                                158 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                2.67%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -0.36%
                                             </td>
                                           
                                         </tr>
@@ -2897,14 +2997,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                2196.70 
+                                                2218.30 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                11.5800 
+                                                <span class=""market-negative-image""></span>
+                                                23.4000 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                0.53%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -1.04%
                                             </td>
                                           
                                         </tr>
@@ -2915,14 +3015,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                259.9 
+                                                301.2 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                7.1000 
+                                                <span class=""market-negative-image""></span>
+                                                6.2000 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                2.81%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -2.02%
                                             </td>
                                           
                                         </tr>
@@ -2933,14 +3033,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                0.58840 
+                                                0.49016 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                0.0143 
+                                                <span class=""market-negative-image""></span>
+                                                0.0317 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                2.49%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -6.07%
                                             </td>
                                           
                                         </tr>
@@ -2951,14 +3051,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                81.9800 
+                                                88.3918 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                9.5353 
+                                                <span class=""market-negative-image""></span>
+                                                4.8098 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                13.16%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -5.16%
                                             </td>
                                           
                                         </tr>
@@ -2969,14 +3069,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                0.61653 
+                                                0.54926 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                0.0089 
+                                                <span class=""market-negative-image""></span>
+                                                0.0184 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                1.47%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -3.25%
                                             </td>
                                           
                                         </tr>
@@ -2987,14 +3087,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                6.93 
+                                                6.86 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                0.2285 
+                                                <span class=""market-negative-image""></span>
+                                                0.2537 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                3.41%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -3.56%
                                             </td>
                                           
                                         </tr>
@@ -3005,14 +3105,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                43.47 
+                                                33.40 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                3.8400 
+                                                <span class=""market-negative-image""></span>
+                                                0.9562 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                9.69%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -2.78%
                                             </td>
                                           
                                         </tr>
@@ -3023,14 +3123,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                0.77 
+                                                0.79 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                0.0081 
+                                                <span class=""market-negative-image""></span>
+                                                0.0282 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                1.06%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -3.44%
                                             </td>
                                           
                                         </tr>
@@ -3041,14 +3141,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                10.61 
+                                                9.36 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                0.2291 
+                                                <span class=""market-negative-image""></span>
+                                                0.4546 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                2.21%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -4.63%
                                             </td>
                                           
                                         </tr>
@@ -3059,14 +3159,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                0.99900 
+                                                0.99981 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                0.0002 
+                                                0.0001 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -0.02%
+                                                -0.01%
                                             </td>
                                           
                                         </tr>
@@ -3077,14 +3177,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                69.840 
+                                                64.080 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
                                                 <span class=""market-negative-image""></span>
-                                                0.9000 
+                                                1.3600 
                                             </td>
                                             <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
-                                                -1.27%
+                                                -2.08%
                                             </td>
                                           
                                         </tr>
@@ -3095,14 +3195,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                5.91 
+                                                5.96 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                0.0845 
+                                                <span class=""market-negative-image""></span>
+                                                0.3565 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                1.45%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -5.65%
                                             </td>
                                           
                                         </tr>
@@ -3113,14 +3213,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                0.20 
+                                                0.18 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                0.0049 
+                                                <span class=""market-negative-image""></span>
+                                                0.0094 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                2.58%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -5.04%
                                             </td>
                                           
                                         </tr>
@@ -3131,14 +3231,14 @@ var isPostBack = false;//]]>
                                             </td>
                                             <td id=""p"" class=""market-widget-last"">
                                                  
-                                                229.22 
+                                                231.04 
                                             </td>
                                             <td id=""nch"" class=""datatable-item  d-lg-none d-xl-table-cell "" style=""text-align: left; min-width: 70px"">
-                                                <span class=""market-positive-image""></span>
-                                                4.5200 
+                                                <span class=""market-negative-image""></span>
+                                                4.4600 
                                             </td>
-                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-positive"">
-                                                2.01%
+                                            <td id=""pch"" class=""market-widget-pct calendar-item calendar-item-negative"">
+                                                -1.89%
                                             </td>
                                           
                                         </tr>
@@ -3839,7 +3939,7 @@ var isPostBack = false;//]]>
         |  <a target=""_blank"" href=""https://tradingeconomics.com/about-te.aspx"" class=""footerItems"">درباره ما</a>  
         |  <a href=""https://tradingeconomics.com/contact.aspx"" target=""_blank"" class=""footerItems"">تماس</a>
     </p>
-    <span style=""color: #E7E7EF; font-size: 11px;"">©2023 TRADING ECONOMICS</span><br>
+    <span style=""color: #E7E7EF; font-size: 11px;"">©2024 TRADING ECONOMICS</span><br>
     <br>
     <br>
     <br>
@@ -5168,11 +5268,11 @@ var isPostBack = false;//]]>
         else if (TE_URL.indexOf(""/crypto"") > -1) TEChannels = ['crypto', 'calendar'];
         else if (TE_URL.indexOf(""/currency"") > -1 || TE_URL.indexOf(""/stock-market"") > -1 || TE_URL.indexOf(""/commodity/"") > -1 || TE_URL.indexOf(""/government-bond-yield"") > -1) TEChannels = ['market', 'calendar'];
         else if (TE_URL.split(':').length == 2) TEChannels = ['calendar'];
-        console.log('IO EPOCH: 1703115385');console.log('IO IP: 185.36.231.195');console.log('IO URL: /malaysia/stock-market');console.log('IO TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlcG9jaCI6MTcwMzExNTM4NSwiaXAiOiIxODUuMzYuMjMxLjE5NSIsInVybCI6Ii9tYWxheXNpYS9zdG9jay1tYXJrZXQifQ.JfbFWh7T0NBu_w3lYT58xkkY33BhvUlRpJ50nIIyz-M');console.log('IO CONNECTING: ' + socket_url, 'at', Math.round(Date.now()) - ioEpoch, 'ms');
+        console.log('IO EPOCH: 1704670777');console.log('IO IP: 185.36.231.195');console.log('IO URL: /malaysia/stock-market');console.log('IO TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlcG9jaCI6MTcwNDY3MDc3NywiaXAiOiIxODUuMzYuMjMxLjE5NSIsInVybCI6Ii9tYWxheXNpYS9zdG9jay1tYXJrZXQifQ.bhAT1M9piWBvtHXwYDSMO3okZkb3ty5Vv7LsyYd_m4U');console.log('IO CONNECTING: ' + socket_url, 'at', Math.round(Date.now()) - ioEpoch, 'ms');
         socket = io.connect(socket_url, {
             withCredentials: true, // Needed for ELB Cookies Stickyness
             
-            auth: { token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlcG9jaCI6MTcwMzExNTM4NSwiaXAiOiIxODUuMzYuMjMxLjE5NSIsInVybCI6Ii9tYWxheXNpYS9zdG9jay1tYXJrZXQifQ.JfbFWh7T0NBu_w3lYT58xkkY33BhvUlRpJ50nIIyz-M', url: TE_URL }
+            auth: { token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlcG9jaCI6MTcwNDY3MDc3NywiaXAiOiIxODUuMzYuMjMxLjE5NSIsInVybCI6Ii9tYWxheXNpYS9zdG9jay1tYXJrZXQifQ.bhAT1M9piWBvtHXwYDSMO3okZkb3ty5Vv7LsyYd_m4U', url: TE_URL }
         });
         socket.on('connect', function () {
             console.log('IO Connected in', Math.round(Date.now()) - ioEpoch, 'ms');
@@ -5341,8 +5441,8 @@ var isPostBack = false;//]]>
 <script>console.log(""/js/chartmk.ascx""); TEChartsDatasource='https://markets.tradingeconomics.com'</script>
 
 <script>
-    TEAuthorization = '0y5JT7ZknXqkycH5iNwTg3VaDJI9YpEtz%2F9uIiD4u9U%3D';
-    TESecurify = '0y5JT7ZknXqkycH5iNwTgxItaQQrZwpN91qlwD6d%2B97EpykW2z0or%2BTMvIMdaM7C';
+    TEAuthorization = 'Oejsd3fy9IjcIfeAqGhkl7ylkQdLMPd0FrmJUV43PA0%3D';
+    TESecurify = 'Oejsd3fy9IjcIfeAqGhkl2a%2Fd99TM3EDWhCLcq1%2BPquD3tTUoOnCihx0cgBvgWRb';
     TESecurifyUrl = '/malaysia/stock-market';
 </script>
 <script src=""https://d1v8a2ofhkdel3.cloudfront.net/cdn/highstock_exporting.10.1.0.js""></script>

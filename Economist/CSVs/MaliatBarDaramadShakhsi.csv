@@ -1,6 +1,6 @@
 ﻿,0
 0,"<form method=""post"" action=""/country-list/personal-income-tax-rate"" id=""aspnetForm"">
-<input type=""hidden"" name=""__VIEWSTATE"" id=""__VIEWSTATE"" value=""eV6u7qrccwd6/69GcIOR5jOaW2gLRd/gwo1ndX4XCSXiv7zhkvsuKtNQEnUZrsFfptrBHQXPhor9s5C6Rpw9uVA+t3M="">
+<input type=""hidden"" name=""__VIEWSTATE"" id=""__VIEWSTATE"" value=""eyAxVnK0diira8a6KvZ2JRNiN4Zi4ZKK3YmA3XR/QotKs8zWyU32rybAPDZnvSvHVo7tLpuUVeU2/Loba3xd1lpO2z4="">
 
 <input type=""hidden"" name=""__VIEWSTATEGENERATOR"" id=""__VIEWSTATEGENERATOR"" value=""9ED6FB81"">
         <nav id=""ctl00_NavigationUC1_ctl00_menu"" class=""navbar navbar-dark fixed-top"" role=""navigation"">
@@ -2198,13 +2198,13 @@
                 <div id=""1"" data-bs-parent=""#accordion"" class=""accordion-collapse collapse "">
                     <div class=""accordion-body"">
                         
-                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl01_Repeater2_ctl00_HyperLink2"" href=""/forecast/commodity"" style=""text-decoration: none; text-transform: capitalize;"">کالا</a><br>
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl01_Repeater2_ctl00_HyperLink2"" href=""/commodities"" style=""text-decoration: none; text-transform: capitalize;"">کالا</a><br>
                             
-                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl01_Repeater2_ctl01_HyperLink2"" href=""/forecast/currency"" style=""text-decoration: none; text-transform: capitalize;"">پول</a><br>
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl01_Repeater2_ctl01_HyperLink2"" href=""/currencies"" style=""text-decoration: none; text-transform: capitalize;"">پول</a><br>
                             
-                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl01_Repeater2_ctl02_HyperLink2"" href=""/forecast/government-bond-10y"" style=""text-decoration: none; text-transform: capitalize;"">اوراق قرضه دولتی ده ساله</a><br>
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl01_Repeater2_ctl02_HyperLink2"" href=""/bonds"" style=""text-decoration: none; text-transform: capitalize;"">اوراق قرضه دولتی ده ساله</a><br>
                             
-                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl01_Repeater2_ctl03_HyperLink2"" href=""/forecast/stock-market"" style=""text-decoration: none; text-transform: capitalize;"">بازار سهام</a><br>
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl01_Repeater2_ctl03_HyperLink2"" href=""/stocks"" style=""text-decoration: none; text-transform: capitalize;"">بازار سهام</a><br>
                             
                     </div>
                 </div>
@@ -2566,17 +2566,25 @@
                             
                                 <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl19_HyperLink2"" href=""/country-list/mining-production"" style=""text-decoration: none; text-transform: capitalize;"">استخراج معدن</a><br>
                             
-                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl20_HyperLink2"" href=""/country-list/new-orders"" style=""text-decoration: none; text-transform: capitalize;"">میزان سفارشات جدید</a><br>
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl20_HyperLink2"" href=""/country-list/natural-gas-stocks-capacity"" style=""text-decoration: none; text-transform: capitalize;"">ظرفیت ذخایر گاز طبیعی</a><br>
                             
-                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl21_HyperLink2"" href=""/country-list/services-pmi"" style=""text-decoration: none; text-transform: capitalize;"">شاخص مدیران خرید (پی ام آی) خدمات</a><br>
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl21_HyperLink2"" href=""/country-list/natural-gas-stocks-injection"" style=""text-decoration: none; text-transform: capitalize;"">تزریق ذخایر گاز طبیعی</a><br>
                             
-                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl22_HyperLink2"" href=""/country-list/small-business-sentiment"" style=""text-decoration: none; text-transform: capitalize;"">تمایلات کسب و کار کوچک</a><br>
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl22_HyperLink2"" href=""/country-list/natural-gas-stocks-inventory"" style=""text-decoration: none; text-transform: capitalize;"">موجودی ذخایر گاز طبیعی</a><br>
                             
-                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl23_HyperLink2"" href=""/country-list/steel-production"" style=""text-decoration: none; text-transform: capitalize;"">تولید فولاد</a><br>
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl23_HyperLink2"" href=""/country-list/natural-gas-stocks-withdrawal"" style=""text-decoration: none; text-transform: capitalize;"">برداشت از سهام گاز طبیعی</a><br>
                             
-                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl24_HyperLink2"" href=""/country-list/total-vehicle-sales"" style=""text-decoration: none; text-transform: capitalize;"">مجموع فروش خودرو</a><br>
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl24_HyperLink2"" href=""/country-list/new-orders"" style=""text-decoration: none; text-transform: capitalize;"">میزان سفارشات جدید</a><br>
                             
-                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl25_HyperLink2"" href=""/country-list/zew-economic-sentiment-index"" style=""text-decoration: none; text-transform: capitalize;"">شاخص تمایلات اقتصادی توسط موسسه ZEW</a><br>
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl25_HyperLink2"" href=""/country-list/services-pmi"" style=""text-decoration: none; text-transform: capitalize;"">شاخص مدیران خرید (پی ام آی) خدمات</a><br>
+                            
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl26_HyperLink2"" href=""/country-list/small-business-sentiment"" style=""text-decoration: none; text-transform: capitalize;"">تمایلات کسب و کار کوچک</a><br>
+                            
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl27_HyperLink2"" href=""/country-list/steel-production"" style=""text-decoration: none; text-transform: capitalize;"">تولید فولاد</a><br>
+                            
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl28_HyperLink2"" href=""/country-list/total-vehicle-sales"" style=""text-decoration: none; text-transform: capitalize;"">مجموع فروش خودرو</a><br>
+                            
+                                <a id=""ctl00_LeftSideMenuContainer1_ctl01_Repeater1_ctl09_Repeater2_ctl29_HyperLink2"" href=""/country-list/zew-economic-sentiment-index"" style=""text-decoration: none; text-transform: capitalize;"">شاخص تمایلات اقتصادی توسط موسسه ZEW</a><br>
                             
                     </div>
                 </div>
@@ -2703,7 +2711,7 @@
         |  <a target=""_blank"" href=""https://tradingeconomics.com/about-te.aspx"" class=""footerItems"">درباره ما</a>  
         |  <a href=""https://tradingeconomics.com/contact.aspx"" target=""_blank"" class=""footerItems"">تماس</a>
     </p>
-    <span style=""color: #E7E7EF; font-size: 11px;"">©2023 TRADING ECONOMICS</span><br>
+    <span style=""color: #E7E7EF; font-size: 11px;"">©2024 TRADING ECONOMICS</span><br>
     <br>
     <br>
     <br>

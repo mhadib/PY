@@ -22,7 +22,8 @@ class QuotesSpider(scrapy.Spider):
         finalResult = pd.DataFrame()
         print('respons:')
         print(response)
-        table = response.xpath('//*[@id="js-category-content"]/div[2]/div/div[2]/div[2]/div/div[2]/div[2]/div/div/table').extract()
+        table = response.xpath('//*[@id="js-category-content"]/div[2]/div/div[4]/div[2]').extract()
+
         print('table:')
         print(table)
         print(2)
